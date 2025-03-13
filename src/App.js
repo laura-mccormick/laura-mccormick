@@ -3,6 +3,7 @@ import simpleThings from "./assets/simplethings.gif";
 import pixelCoffee from "./assets/pixelcoffee.webp";
 import sparkleShortcake from "./assets/sparkleshortcake.gif";
 import iLoveMyHusband from "./assets/ilovemyhusband.gif";
+import billCypher from "./assets/billcypher.gif";
 import "./App.css";
 
 function App() {
@@ -36,10 +37,11 @@ function App() {
 
         <div className="App-text">
           <h1 style={{ color: "lightsalmon" }}>Laura McCormick</h1>
-          <img src={simpleThings} alt="It's the simple things" />
-          <a href="https://www.glitter-graphics.com">
+          <div id="blinkies">
+            <img src={simpleThings} alt="It's the simple things" />
             <img src={iLoveMyHusband} alt="I love my husband" />
-          </a>
+            <img src={billCypher} alt="Bill Cypher" />
+          </div>
           <h2 style={{ color: "darksalmon" }}>Welcome to my page!!</h2>
           <img src={sparkleShortcake} alt="Strawberry Shortcake" />
         </div>
