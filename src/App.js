@@ -42,6 +42,7 @@ function App() {
           </a>
           <h2 style={{ color: "darksalmon" }}>Welcome to my page!!</h2>
           <img src={sparkleShortcake} alt="Strawberry Shortcake" />
+          Work please
         </div>
       </div>
     </div>
